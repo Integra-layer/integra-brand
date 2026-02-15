@@ -1,0 +1,87 @@
+/*
+ * Integra Brand — Standalone CSS Custom Properties
+ *
+ * For non-Tailwind projects (vanilla CSS, Vue, Svelte, etc.)
+ * Import this file at the top of your stylesheet:
+ *   @import "./brand-tokens.css";
+ *
+ * Then use: color: var(--integra-brand);
+ */
+
+:root {
+  /* ─── Brand ─── */
+  --integra-brand: #FF6D49;
+  --integra-brand-dark: #FC4E23;
+  --integra-brand-light: #FF8A65;
+  --integra-brand-gold: #FFC17A;
+  --integra-brand-pink: #F34499;
+  --integra-brand-pink-light: #FFAFD6;
+  --integra-brand-red: #F71227;
+  --integra-brand-teal: #00A186;
+
+  /* ─── Status ─── */
+  --integra-success: #1FC16B;
+  --integra-warning: #FA7319;
+  --integra-danger: #FA3748;
+  --integra-info: #335CFF;
+
+  /* ─── Neutral ─── */
+  --integra-white: #FFFFFF;
+  --integra-gray-50: #FAFAF8;
+  --integra-gray-100: #F5F5F2;
+  --integra-gray-200: #E5E7EB;
+  --integra-gray-300: #D1D5DB;
+  --integra-gray-400: #9CA3AF;
+  --integra-gray-500: #6B7280;
+  --integra-gray-600: #4B5563;
+  --integra-gray-700: #374151;
+  --integra-gray-800: #1F2937;
+  --integra-gray-900: #111827;
+  --integra-black: #0A0A0F;
+
+  /* ─── Surfaces (Light) ─── */
+  --integra-bg: #FAFAF8;
+  --integra-surface: #FFFFFF;
+  --integra-surface-muted: #F5F5F2;
+  --integra-border: rgba(0, 0, 0, 0.08);
+  --integra-border-strong: rgba(0, 0, 0, 0.15);
+  --integra-text: #1A1A1F;
+  --integra-text-muted: #6B6B76;
+  --integra-text-subtle: #9CA3AF;
+
+  /* ─── Fonts ─── */
+  --integra-font-sans: "Euclid Circular B", Verdana, system-ui, sans-serif;
+  --integra-font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* ─── Radius ─── */
+  --integra-radius-sm: 0.375rem;
+  --integra-radius-md: 0.5rem;
+  --integra-radius-lg: 0.75rem;
+  --integra-radius-xl: 1rem;
+  --integra-radius-full: 9999px;
+
+  /* ─── Shadows ─── */
+  --integra-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --integra-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --integra-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04);
+  --integra-shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+
+  /* ─── Gradients ─── */
+  --integra-gradient-brand: linear-gradient(135deg, #FFAFD6, #F34499, #FC4E23, #F71227);
+  --integra-gradient-button: linear-gradient(135deg, #F34499, #FF4F2E);
+  --integra-gradient-warm: linear-gradient(135deg, #FF6D49, #FF8A65, #FFB74D);
+  --integra-gradient-text: linear-gradient(135deg, #F34499, #FF7B6B, #FF4F2E);
+}
+
+/* ─── Dark theme override ─── */
+[data-theme="dark"],
+.dark {
+  --integra-bg: #0A0A0F;
+  --integra-surface: rgba(23, 23, 28, 0.7);
+  --integra-surface-muted: rgba(31, 31, 38, 0.4);
+  --integra-border: rgba(255, 255, 255, 0.08);
+  --integra-border-strong: rgba(255, 255, 255, 0.15);
+  --integra-text: #E6E6E6;
+  --integra-text-muted: #A3A3A3;
+  --integra-text-subtle: #6C757D;
+}

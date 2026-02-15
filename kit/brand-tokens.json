@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "primary": "#FF6D49",
+    "primaryDark": "#FC4E23",
+    "primaryLight": "#FF8A65",
+    "gold": "#FFC17A",
+    "pink": "#F34499",
+    "pinkLight": "#FFAFD6",
+    "red": "#F71227",
+    "teal": "#00A186"
+  },
+  "status": {
+    "success": "#1FC16B",
+    "warning": "#FA7319",
+    "danger": "#FA3748",
+    "info": "#335CFF"
+  },
+  "neutral": {
+    "white": "#FFFFFF",
+    "gray50": "#FAFAF8",
+    "gray100": "#F5F5F2",
+    "gray200": "#E5E7EB",
+    "gray300": "#D1D5DB",
+    "gray400": "#9CA3AF",
+    "gray500": "#6B7280",
+    "gray600": "#4B5563",
+    "gray700": "#374151",
+    "gray800": "#1F2937",
+    "gray900": "#111827",
+    "black": "#0A0A0F"
+  },
+  "surface": {
+    "light": {
+      "background": "#FAFAF8",
+      "card": "#FFFFFF",
+      "muted": "#F5F5F2",
+      "border": "rgba(0, 0, 0, 0.08)",
+      "text": "#1A1A1F",
+      "textMuted": "#6B6B76",
+      "textSubtle": "#9CA3AF"
+    },
+    "dark": {
+      "background": "#0A0A0F",
+      "card": "rgba(23, 23, 28, 0.7)",
+      "muted": "rgba(31, 31, 38, 0.4)",
+      "border": "rgba(255, 255, 255, 0.08)",
+      "text": "#E6E6E6",
+      "textMuted": "#A3A3A3",
+      "textSubtle": "#6C757D"
+    }
+  },
+  "chart": ["#FF6D49", "#F34499", "#335CFF", "#1FC16B", "#FFC17A", "#A855F7"],
+  "gradients": {
+    "brand": "linear-gradient(135deg, #FFAFD6, #F34499, #FC4E23, #F71227)",
+    "brandButton": "linear-gradient(135deg, #F34499, #FF4F2E)",
+    "warm": "linear-gradient(135deg, #FF6D49, #FF8A65, #FFB74D)",
+    "coral": "linear-gradient(135deg, #FC4E23, #FF6D49, #FF8A65)",
+    "pinkOrange": "linear-gradient(135deg, #F34499, #FF7B6B, #FF4F2E)",
+    "text": "linear-gradient(135deg, #F34499, #FF7B6B, #FF4F2E)"
+  },
+  "typography": {
+    "sans": "\"Euclid Circular B\", Verdana, system-ui, sans-serif",
+    "mono": "\"Geist Mono\", ui-monospace, SFMono-Regular, Menlo, monospace"
+  },
+  "radius": {
+    "sm": "0.375rem",
+    "md": "0.5rem",
+    "lg": "0.75rem",
+    "xl": "1rem",
+    "2xl": "1.5rem",
+    "full": "9999px"
+  }
+}
