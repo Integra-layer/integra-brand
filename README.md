@@ -45,35 +45,38 @@ The Integra mark is a geometric pinwheel — four interlocking quadrants symboli
 
 | Color | Hex | Usage |
 |-------|-----|-------|
-| ![#FF6D49](https://via.placeholder.com/24/FF6D49/FF6D49.png) **Primary** | `#FF6D49` | Flagship coral-orange — buttons, links, accents |
-| ![#FC4E23](https://via.placeholder.com/24/FC4E23/FC4E23.png) **Primary Dark** | `#FC4E23` | Hover and active states |
-| ![#FF8A65](https://via.placeholder.com/24/FF8A65/FF8A65.png) **Primary Light** | `#FF8A65` | Subtle accents, highlights |
-| ![#FFC17A](https://via.placeholder.com/24/FFC17A/FFC17A.png) **Gold** | `#FFC17A` | Warm accent, rewards |
-| ![#F34499](https://via.placeholder.com/24/F34499/F34499.png) **Pink** | `#F34499` | Secondary accent, gradients |
-| ![#FFAFD6](https://via.placeholder.com/24/FFAFD6/FFAFD6.png) **Pink Light** | `#FFAFD6` | Gradient start |
-| ![#F71227](https://via.placeholder.com/24/F71227/F71227.png) **Red** | `#F71227` | Gradient end |
-| ![#00A186](https://via.placeholder.com/24/00A186/00A186.png) **Teal** | `#00A186` | Contrast accent |
+| ![Primary](https://img.shields.io/badge/Primary-FF6D49?style=flat-square&color=FF6D49) | `#FF6D49` | Flagship coral-orange — buttons, links, accents |
+| ![Primary Dark](https://img.shields.io/badge/Primary_Dark-FC4E23?style=flat-square&color=FC4E23) | `#FC4E23` | Hover and active states |
+| ![Primary Light](https://img.shields.io/badge/Primary_Light-FF8A65?style=flat-square&color=FF8A65) | `#FF8A65` | Subtle accents, highlights |
+| ![Gold](https://img.shields.io/badge/Gold-FFC17A?style=flat-square&color=FFC17A) | `#FFC17A` | Warm accent, rewards |
+| ![Pink](https://img.shields.io/badge/Pink-F34499?style=flat-square&color=F34499) | `#F34499` | Secondary accent, gradients |
+| ![Pink Light](https://img.shields.io/badge/Pink_Light-FFAFD6?style=flat-square&color=FFAFD6) | `#FFAFD6` | Gradient start |
+| ![Red](https://img.shields.io/badge/Red-F71227?style=flat-square&color=F71227) | `#F71227` | Gradient end |
+| ![Teal](https://img.shields.io/badge/Teal-00A186?style=flat-square&color=00A186) | `#00A186` | Contrast accent |
 
 ### Status Colors
 
 | Color | Hex | Usage |
 |-------|-----|-------|
-| ![#1FC16B](https://via.placeholder.com/24/1FC16B/1FC16B.png) **Success** | `#1FC16B` | Positive, online, confirmed |
-| ![#FA7319](https://via.placeholder.com/24/FA7319/FA7319.png) **Warning** | `#FA7319` | Caution, pending |
-| ![#FA3748](https://via.placeholder.com/24/FA3748/FA3748.png) **Danger** | `#FA3748` | Error, destructive |
-| ![#335CFF](https://via.placeholder.com/24/335CFF/335CFF.png) **Info** | `#335CFF` | Informational, links |
+| ![Success](https://img.shields.io/badge/Success-1FC16B?style=flat-square&color=1FC16B) | `#1FC16B` | Positive, online, confirmed |
+| ![Warning](https://img.shields.io/badge/Warning-FA7319?style=flat-square&color=FA7319) | `#FA7319` | Caution, pending |
+| ![Danger](https://img.shields.io/badge/Danger-FA3748?style=flat-square&color=FA3748) | `#FA3748` | Error, destructive |
+| ![Info](https://img.shields.io/badge/Info-335CFF?style=flat-square&color=335CFF) | `#335CFF` | Informational, links |
 
 ### Neutral Scale
 
-```
-#FFFFFF → #FAFAF8 → #F5F5F2 → #E5E7EB → #D1D5DB → #9CA3AF
-#6B7280 → #4B5563 → #374151 → #1F2937 → #111827 → #0A0A0F
-```
+| | | | | | |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| ![](https://img.shields.io/badge/White-FFFFFF?style=flat-square&color=FFFFFF) | ![](https://img.shields.io/badge/50-FAFAF8?style=flat-square&color=FAFAF8) | ![](https://img.shields.io/badge/100-F5F5F2?style=flat-square&color=F5F5F2) | ![](https://img.shields.io/badge/200-E5E7EB?style=flat-square&color=E5E7EB) | ![](https://img.shields.io/badge/300-D1D5DB?style=flat-square&color=D1D5DB) | ![](https://img.shields.io/badge/400-9CA3AF?style=flat-square&color=9CA3AF) |
+| `#FFFFFF` | `#FAFAF8` | `#F5F5F2` | `#E5E7EB` | `#D1D5DB` | `#9CA3AF` |
+| ![](https://img.shields.io/badge/500-6B7280?style=flat-square&color=6B7280) | ![](https://img.shields.io/badge/600-4B5563?style=flat-square&color=4B5563) | ![](https://img.shields.io/badge/700-374151?style=flat-square&color=374151) | ![](https://img.shields.io/badge/800-1F2937?style=flat-square&color=1F2937) | ![](https://img.shields.io/badge/900-111827?style=flat-square&color=111827) | ![](https://img.shields.io/badge/Black-0A0A0F?style=flat-square&color=0A0A0F) |
+| `#6B7280` | `#4B5563` | `#374151` | `#1F2937` | `#111827` | `#0A0A0F` |
 
 ### Chart Colors
 
 | Series 1 | Series 2 | Series 3 | Series 4 | Series 5 | Series 6 |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| ![](https://img.shields.io/badge/-FF6D49?style=flat-square&color=FF6D49) | ![](https://img.shields.io/badge/-F34499?style=flat-square&color=F34499) | ![](https://img.shields.io/badge/-335CFF?style=flat-square&color=335CFF) | ![](https://img.shields.io/badge/-1FC16B?style=flat-square&color=1FC16B) | ![](https://img.shields.io/badge/-FFC17A?style=flat-square&color=FFC17A) | ![](https://img.shields.io/badge/-A855F7?style=flat-square&color=A855F7) |
 | `#FF6D49` | `#F34499` | `#335CFF` | `#1FC16B` | `#FFC17A` | `#A855F7` |
 
 ---
