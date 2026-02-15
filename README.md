@@ -202,6 +202,75 @@ npm install ../integra-design-system
 
 ---
 
+## Drop-in Kit
+
+The `kit/` directory contains ready-to-copy files for instantly aligning any repo:
+
+| File | What it does |
+|------|-------------|
+| `kit/globals.css` | Tailwind v4 `@theme` with all brand tokens + utility classes (gradient-brand, glass, status-dot) |
+| `kit/integra-logo.tsx` | React component — `<IntegraLogo />` with `variant` (mark/full) and `color` (white/pink/brand/dark) props |
+| `kit/brand-tokens.css` | Standalone CSS custom properties for non-Tailwind projects (`--integra-brand`, etc.) with dark theme support |
+| `kit/brand-tokens.json` | Machine-readable token export — all colors, fonts, gradients, radius, surfaces |
+| `kit/postcss.config.mjs` | Required PostCSS config for Tailwind v4 |
+
+### Quick Start (Next.js + Tailwind v4)
+
+```bash
+# 1. Copy the essentials
+cp kit/globals.css src/app/globals.css
+cp kit/integra-logo.tsx src/components/integra-logo.tsx
+cp kit/postcss.config.mjs postcss.config.mjs
+
+# 2. Use in your components
+import { IntegraLogo } from '@/components/integra-logo'
+
+<IntegraLogo className="h-8" />              // full wordmark
+<IntegraLogo variant="mark" className="h-6" /> // icon only
+<IntegraLogo color="white" />                 // white on dark
+```
+
+### Quick Start (Vanilla CSS / Vue / Svelte)
+
+```bash
+# 1. Copy tokens
+cp kit/brand-tokens.css src/styles/brand-tokens.css
+
+# 2. Import in your main stylesheet
+@import "./brand-tokens.css";
+
+# 3. Use variables
+color: var(--integra-brand);
+background: var(--integra-gradient-brand);
+font-family: var(--integra-font-sans);
+```
+
+---
+
+## Claude Code Plugin
+
+This repo includes a Claude Code plugin for brand enforcement. Load it with:
+
+```bash
+claude --plugin-dir /path/to/integra-brand
+```
+
+### Skills
+
+| Command | Description |
+|---------|-------------|
+| `/brand-audit` | Scan current project for brand violations — wrong colors, wrong fonts, hardcoded values |
+| `/brand-apply` | Apply the brand kit to current project — copies tokens, logo, fixes common violations |
+| `/brand-enforce` | Check staged git changes for brand compliance before committing |
+
+### Agent
+
+| Agent | Description |
+|-------|-------------|
+| `brand-auditor` | Sonnet-powered auditor that scans CSS, components, and configs for brand violations. Reports severity-rated findings table. |
+
+---
+
 ## Resources
 
 - [Live Brand Guide](https://integra-brand.vercel.app)
