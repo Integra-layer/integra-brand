@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Euclid Circular B", Verdana, system-ui, sans-serif;
+  --font-sans: var(--font-euclid), "Euclid Circular B", Verdana, system-ui, sans-serif;
   --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
   --color-brand: #FF6D49;
